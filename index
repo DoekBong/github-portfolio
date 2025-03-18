@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ & Patrick's Travel Blog &#9992;</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon setup -->
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header, nav, main, section, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        /* Header */
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background: #555;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            flex-grow: 1;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a:hover {
+            background: #4CAF50;
+            border-radius: 5px;
+        }
+
+        /* Main Content Styling */
+        main {
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        img {
+            width: 45%;
+            height: auto;
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        /* Contact Section Styling */
+        #contact {
+            background: #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Emoji List Styling */
+        #emoji-list {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to AJ & Patrick's Travel Blog &#127757;</h1>
+        <p>Your journey starts here!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Why We Travel Section -->
+        <section>
+            <h2>Why We Travel &#10024;</h2>
+            <p>We travel to explore new places, meet different people, and create unforgettable memories. The world is too big to stay in one place — let’s discover it together!</p>
+        </section>
+
+        <!-- Travel Inspiration Video -->
+        <section>
+            <h2>&#127909; Travel Inspiration Video</h2>
+            <p>Get inspired for your next adventure:</p>
+            <iframe src="https://www.youtube.com/embed/qLh99Cxb1e0" allowfullscreen></iframe>
+        </section>
+
+        <!-- School Location -->
+        <section>
+            <h2>&#128205; Our School Location</h2>
+            <p>Here’s where we start our journey — Cebu Eastern College!</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.2537750382916!2d123.89602888434389!3d10.294529563842085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d:0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1741792711133!5m2!1sen!2sph" allowfullscreen></iframe>
+        </section>
+
+        <!-- Clickable Travel Map -->
+        <section>
+            <h2>&#127758; Clickable Travel Destinations</h2>
+            <p>Explore our dream destinations:</p>
+
+            <a href="https://www.google.com/maps/place/Boracay" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Boracay_White_Beach_Panorama.jpg" alt="Boracay Beach">
+            </a>
+
+            <a href="https://www.google.com/maps/place/Palawan" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Palawan_El_Nido_Beach.jpg" alt="Palawan Beach">
+            </a>
+        </section>
+
+        <!-- Emoji List Section -->
+        <section id="emoji-list">
+            <h2>&#128515; Our Favorite Emojis</h2>
+            <ul>
+                <li>&#10024; - Sparkle</li>
+                <li>&#9992; - Airplane</li>
+                <li>&#127757; - Earth Globe</li>
+                <li>&#127909 - Video Camera</li>
+                <li>&#128205; - Location Pin</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>&#128231; Contact Us</h2>
+            <p>Email: <a href="mailto:cabuenasaj564@gmail.com">cabuenasaj564@gmail.com</a> | <a href="mailto:patrickvillanueva1422@gmail.com">patrickvillanueva1422@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 AJ & Patrick’s Travel Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
