@@ -3,67 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJ & Patrick's Travel Blog 🌍✨</title>
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4763/4763981.png" type="image/x-icon">
-
+    <title>AJ & Patrick's Travel Blog &#9992;</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon setup -->
     <style>
-        /* Fresh Color Palette - Clean but Cool */
+        /* Basic Styling */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #1e1e2e;
-            color: #d1d5db;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header, nav, main, section, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        /* Header */
+        header {
+            background: #4CAF50;
+            color: white;
             text-align: center;
         }
 
-        header {
-            background-color: #4a4e69;
-            padding: 20px;
-            color: #f4f1de;
+        /* Navigation Bar Styling */
+        nav {
+            background: #555;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
         }
 
-        h1 {
-            font-size: 2.8em;
-            color: #ffb703;
+        nav a {
+            color: white;
+            text-decoration: none;
+            flex-grow: 1;
+            text-align: center;
+            padding: 10px 0;
         }
 
-        h2 {
-            color: #8ecae6;
-            font-size: 2em;
-            margin-top: 10px;
+        nav a:hover {
+            background: #4CAF50;
+            border-radius: 5px;
         }
 
-        p {
-            font-size: 1.2em;
-            color: #e9edc9;
+        /* Main Content Styling */
+        main {
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
         }
 
         iframe {
-            width: 80%;
-            height: 315px;
-            border: 3px solid #8ecae6;
-            border-radius: 8px;
-            margin-bottom: 20px;
+            width: 100%;
+            height: 300px;
+            border: none;
         }
 
         img {
-            width: 300px;
-            height: 200px;
-            margin: 10px;
-            border: 3px solid #ffb703;
-            border-radius: 10px;
+            width: 45%;
+            height: auto;
+            margin: 5px;
+            border-radius: 8px;
         }
 
-        a {
-            color: #ffb703;
-            text-decoration: none;
-            font-weight: bold;
+        /* Contact Section Styling */
+        #contact {
+            background: #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
         }
 
-        a:hover {
-            color: #8ecae6;
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Emoji List Styling */
+        #emoji-list {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
         }
 
         ul {
@@ -72,115 +106,85 @@
         }
 
         li {
-            font-size: 1.5em;
             display: inline-block;
             margin: 5px;
-        }
-
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #4a4e69;
-            font-size: 1em;
-            color: #f4f1de;
-        }
-
-        /* Welcome Banner Styling */
-        #welcome-banner {
-            font-size: 2.2em;
-            font-weight: bold;
-            padding: 15px;
-            color: #1e1e2e;
-            background: #ffb703;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        section {
-            margin-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
-
-    <!-- Welcome Banner -->
-    <div id="welcome-banner">🌟 Welcome to AJ & Patrick's Travel Blog! 🌟</div>
-
-    <!-- Blog Title -->
+    <!-- Header -->
     <header>
-        <h1>AJ & Patrick's Epic Travel Adventure 🚀</h1>
+        <h1>Welcome to AJ & Patrick's Travel Blog &#127757;</h1>
+        <p>Your journey starts here!</p>
     </header>
 
-    <!-- Travel Inspiration Video -->
-    <section>
-        <h2>🎥 Travel Inspiration Video</h2>
-        <p>Get inspired for your next big adventure:</p>
-        <iframe src="https://www.youtube.com/embed/qLh99Cxb1e0" allowfullscreen></iframe>
-    </section>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
 
-    <!-- School Location (Embedded Google Map - Non-Clickable) -->
-    <section>
-        <h2>📍 Our School Location</h2>
-        <p>Here’s where we start our journey — Cebu Eastern College!</p>
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.2537750382916!2d123.89602888434389!3d10.294529563842085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1741792711133!5m2!1sen!2sph" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Why We Travel Section -->
+        <section>
+            <h2>Why We Travel &#10024;</h2>
+            <p>We travel to explore new places, meet different people, and create unforgettable memories. The world is too big to stay in one place — let’s discover it together!</p>
+        </section>
 
-    <!-- Clickable Travel Map -->
-    <section>
-        <h2>🌎 Clickable Travel Destinations</h2>
-        <p>Explore our dream destinations:</p>
+        <!-- Travel Inspiration Video -->
+        <section>
+            <h2>&#127909; Travel Inspiration Video</h2>
+            <p>Get inspired for your next adventure:</p>
+            <iframe src="https://www.youtube.com/embed/qLh99Cxb1e0" allowfullscreen></iframe>
+        </section>
 
-        <a href="https://www.google.com/maps/place/Boracay" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Boracay_White_Beach_Panorama.jpg" alt="Boracay Beach">
-        </a>
+        <!-- School Location -->
+        <section>
+            <h2>&#128205; Our School Location</h2>
+            <p>Here’s where we start our journey — Cebu Eastern College!</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.2537750382916!2d123.89602888434389!3d10.294529563842085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d:0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1741792711133!5m2!1sen!2sph" allowfullscreen></iframe>
+        </section>
 
-        <a href="https://www.google.com/maps/place/Palawan" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Palawan_El_Nido_Beach.jpg" alt="Palawan Beach">
-        </a>
-    </section>
+        <!-- Clickable Travel Map -->
+        <section>
+            <h2>&#127758; Clickable Travel Destinations</h2>
+            <p>Explore our dream destinations:</p>
 
-    <!-- Title with Special Characters -->
-    <section>
-        <h2>✨ AJ & PATRICK'S ADVENTURE: Let&apos;s Explore the World! ✨</h2>
-    </section>
+            <a href="https://www.google.com/maps/place/Boracay" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Boracay_White_Beach_Panorama.jpg" alt="Boracay Beach">
+            </a>
 
-    <!-- Paragraph using Symbol Entities -->
-    <section>
-        <p>
-            We travel to discover new places &amp; create unforgettable memories.  
-            Let&apos;s go &heartsuit; — Adventure Awaits!
-        </p>
-    </section>
+            <a href="https://www.google.com/maps/place/Palawan" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Palawan_El_Nido_Beach.jpg" alt="Palawan Beach">
+            </a>
+        </section>
 
-    <!-- List of Favorite Emojis (Unicode codes) -->
-    <section>
-        <h2>Our Favorite Travel Emojis 🌟</h2>
-        <ul>
-            <li>&#128747; (✈️ Airplane)</li>
-            <li>&#128690; (🚙 Road Trip)</li>
-            <li>&#127965; (🏕️ Camping)</li>
-            <li>&#127796; (⛰️ Mountains)</li>
-            <li>&#127958; (🏖️ Beach)</li>
-        </ul>
-    </section>
+        <!-- Emoji List Section -->
+        <section id="emoji-list">
+            <h2>&#128515; Our Favorite Emojis</h2>
+            <ul>
+                <li>&#10024; - Sparkle</li>
+                <li>&#9992; - Airplane</li>
+                <li>&#127757; - Earth Globe</li>
+                <li>&#127909 - Video Camera</li>
+                <li>&#128205; - Location Pin</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>&#128231; Contact Us</h2>
+            <p>Email: <a href="mailto:cabuenasaj564@gmail.com">cabuenasaj564@gmail.com</a> | <a href="mailto:patrickvillanueva1422@gmail.com">patrickvillanueva1422@gmail.com</a></p>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 AJ & Patrick's Travel Adventure | All Rights Reserved</p>
+        <p>&copy; 2025 AJ & Patrick’s Travel Blog. All Rights Reserved.</p>
     </footer>
-    <footer>
-        <p>&copy; 2025 AJ & Patrick's Travel Adventure | All Rights Reserved</p>
-    </footer>
-
-
 </body>
 </html>
